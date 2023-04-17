@@ -227,16 +227,16 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 260px;
+  width: 250px;
 }
 
 .home__blob {
-  fill: black;
+  fill: rgb(255, 255, 255);
 }
 
 .home__blob-img {
-  width: 360px;
-  border-radius: .5rem;
+  width: 300px;
+  border-radius: .4rem;
 }
 
 /*BUTTONS*/
