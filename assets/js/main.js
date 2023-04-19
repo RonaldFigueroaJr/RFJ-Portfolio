@@ -21,7 +21,7 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
+/*==================== Scroll Section Active Link ====================*/
 const sections = document.querySelectorAll('section[id]')
 
 function scrollActive(){
@@ -41,7 +41,7 @@ function scrollActive(){
 }
 window.addEventListener('scroll', scrollActive)
 
-/*===== SCROLL REVEAL ANIMATION =====*/
+/*===== Scroll Reveal Animation =====*/
 const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
